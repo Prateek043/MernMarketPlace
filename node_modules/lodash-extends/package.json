@@ -1,0 +1,32 @@
+{
+  "name": "lodash-extends",
+  "version": "0.1.12",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "test-spec": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jofierro/lodash-extends"
+  },
+  "keywords": [
+    "lodash",
+    "extends",
+    "lodash extends"
+  ],
+  "author": "Jonathan Fierro Sandoval <jofierro@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jofierro/lodash-extends/issues"
+  },
+  "dependencies": {
+    "wrapper-path": "0.1.9",
+    "lodash": "4.11.1",
+    "uuid": "2.0.2"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2"
+  }
+}
